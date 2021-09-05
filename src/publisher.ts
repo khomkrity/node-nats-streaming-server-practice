@@ -5,7 +5,7 @@ console.clear();
 
 // client
 const stan = nats.connect('ticketing', 'abc', {
-  url: 'http://localhost:3763',
+  url: 'http://localhost:4222',
 });
 
 stan.on('connect', async () => {
